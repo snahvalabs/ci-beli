@@ -49,7 +49,7 @@
 
 
         <?php 
-        if(isset($user_name) && isset($user_nilai) && $user_name!="" && $user_nilai!=""){
+        if(isset($user_name) && isset($user_nilai) && $user_name!=NULL && $user_nilai!=NULL){
             echo "<div class='login-box-body'>";
             echo "<p class='login-box-msg'><b>HASIL</b></p>";
             echo "Nama <b>".$user_name."</b> mendapatkan ";
